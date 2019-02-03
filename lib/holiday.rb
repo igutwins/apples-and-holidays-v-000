@@ -59,7 +59,7 @@ holiday_hash.each do |season, holiday|
   puts season.to_s+": "
   holiday.each do |holiday, supplies|
     puts "#{holiday_to_s}: #{supplies.flatten}"
-  
+
   end
 
 end
